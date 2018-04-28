@@ -1,0 +1,423 @@
+/*------------------------------------*/
+/* Basic setup */
+/*------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+html{
+	background-color: #fff;
+	color: #555;
+	font-family: 'lato', 'Arial', sans-serif;
+    font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility; 
+}
+.float-clear{
+    clear: both;
+}
+/*------------------------------------*/
+/* section-menu */
+/*------------------------------------*/
+.section-menu-full{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.logo{
+    float: left;
+}
+.main-menu{
+    float: left;
+    padding-left: 250px;
+    font-weight: 400;
+    font-size: 80%;
+}
+.main-menu ul{
+    padding-top: 0px;
+}
+.main-menu ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    list-style: none;
+    transition: background-color 0.9s;
+}
+.main-menu ul li:hover{
+    background-color: #7f8c8d;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #34495e;
+}
+.social-site{
+    float: right;
+}
+.social-site a{
+    padding-left: 5px;
+}
+/*------------------------------------*/
+/* section-header */
+/*------------------------------------*/
+.section-header{
+    overflow: hidden;
+    background-color: #2a2a2a;
+}
+.left-side{
+    float: left;
+    padding-top: 20px;
+}
+.right-side{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.left-side h1{
+    font-size: 200%;
+    color: #34de7c;
+    font-weight: 300;
+}
+.left-side p{
+    color: #ffffff;
+    padding-top: 20px;
+}
+.right-side img{
+    float: right;
+}
+.purchase-now-btn {
+    padding-top: 50px;
+}
+.purchase-now-btn a:hover{
+    background-color:#34de7c; 
+    border-color: #34de7c;
+    color: #000;
+}
+.purchase-now-btn a{
+    text-decoration: none;
+    color: #34de7c;
+    padding: 8px;
+    border: 1px solid #34de7c;
+    transition: background-color 0.9s, color 0.9s;
+}
+
+/*------------------------------------*/
+/* section-info-1 */
+/*------------------------------------*/
+.section-info-1{
+    overflow: hidden;
+    background-color: #3498db;
+}
+.info-1-text{
+    padding-top: 30px;
+    color: #2c3e50;
+}
+.info-1-text h3{
+    padding-top: 20px;
+    font-weight: 400;
+}
+.info-1-text p{
+    padding-top: 20px;
+    font-size: 90%;
+    padding-bottom: 40px;
+}
+.info-1-btn{
+    padding-bottom: 40px;
+}
+.info-1-btn a{
+    color: #2c3e50;
+    text-decoration: none;
+    border: 2px solid #2c3e50;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.9s, color 0.9s;
+}
+.info-1-btn a:hover{
+    background-color: #2c3e50;
+    color: #fff;
+}
+#link-2{
+    margin-left: 20px;
+}
+/*------------------------------------*/
+/* section-our-process */
+/*------------------------------------*/
+.process-text-part{
+    padding-top: 30px;
+}
+.process-text-part h3{
+    font-weight: bold;
+}
+.process-text-part p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section-our-process{
+    overflow: hidden;
+}
+.process-single-graph{
+}
+.single-graph{
+    float: left;
+    text-align: center;
+}
+.single-graph h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.arrow img{
+    float: right;
+}
+
+/*------------------------------------*/
+/* our-latest-stuff */
+/*------------------------------------*/
+.our-latest-stuff-full{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.stuff-text p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.single-stuff a{
+    text-decoration: none;
+    color: #34495E;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 300px;
+}
+.card img{
+    height: 200px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.container_card {
+    padding: 2px 16px;
+    text-align: center;
+}
+.arrow{
+    visibility: hidden;
+}
+.container_card h4{
+    padding-top: 20px;
+}
+.container_card p{
+    padding-bottom: 20px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 0px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image 
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+*/
+
+/*------------------------------------*/
+/* section-info-2 */
+/*------------------------------------*/
+.section-info-2-full{
+    overflow: hidden;
+    padding-bottom: 70px; 
+}
+.section-info-2{
+    overflow: hidden;
+}
+.single-date-1-info{
+    padding-right: 10px;
+}
+.date-1 div{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 7px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.recent-post-heading h2{
+    padding-bottom: 30px;
+}
+.date-1{
+    float: left;
+}
+.date-1-info a{
+    float: left;
+    text-decoration: none;
+    color: #3471a7;
+    padding-right: 20px;
+}
+.num p{
+    float: left;
+    padding-right: 5px;
+}
+.date-1-info i{
+    float: left;
+    color: #f80e3b;
+    font-size: 110%;
+    padding-left: 5px;
+}
+.sm-txt {
+    clear: both;
+    padding-top: 20px;
+}
+.div-link a{
+    padding-top: 20px;
+}
+.a-little-about-us{
+    padding-top: 20px;
+}
+.a-little-about-us h2{
+    padding-bottom: 30px;
+}
+.a-little-about-us ul{
+    padding-top: 30px;
+    list-style: square;
+}
+
+/*------------------------------------*/
+/* section-footer */
+/*------------------------------------*/
+.section-qoute{
+    overflow: hidden;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.section-qoute img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.qoute-name{
+    padding-top: 20px;
+    padding-bottom: 65px;
+}
+.qoute-name p{
+    color: #4ebebe;
+}
+
+/*------------------------------------*/
+/* section-contact-form */
+/*------------------------------------*/
+.section-contact-form{
+    background-color: #393939;
+    overflow: hidden;
+}
+.contact-form-full{
+    padding-top: 40px;
+    overflow: hidden;
+    padding-bottom: 60px;
+    color: #fff;
+}
+.get-in-touch-single i{
+    
+}
+.get-in-touch-single{
+    overflow: hidden;
+}
+.get-in-touch-single p{
+    font-size: 80%;
+    padding-bottom: 10px;
+}
+.get-in-touch-txt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.twitter-single p{
+    font-size: 80%;
+}
+.Twitter{
+    padding-left: 20px;
+}
+.Twitter h3{
+    padding-bottom: 20px;
+}
+.pp-single p{
+    float: left;
+}
+.Popular-post{
+    padding-left: 10px;
+    display: inline-block;
+}
+.Popular-post h3{
+    padding-bottom: 20px;
+}
+#pp-color{
+    color: #8e8e8e;
+    font-size: 80%;
+}
+.pp-single{
+    display: inline-block;
+    padding-bottom: 15px;
+    font-size: 90%;
+}
+.new-cl{
+    padding-bottom: 20px;
+}
+
+.contact-form-real h3{
+    padding-bottom: 20px;
+}
+.contact-form-real input,textarea{
+    width: 100%;
+    color: #fff;
+    background-color: #2e2e2e;
+    border: none;
+}
+#name{
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+#email{
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+.contact-form-real textarea{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+#submit-btn{
+    width: 115px;
+    padding: 10px 20px;
+    transition: background-color 0.9s, color 0.9s;
+}
+#submit-btn:hover{
+    background-color: #52fc3f;
+    color: #ffffff;
+}
+.contact-form-full h3{
+    color: #16a085;
+}
+/*------------------------------------*/
+/* section-footer */
+/*------------------------------------*/
+.section-footer{
+    overflow: hidden;
+    background-color: #333333;
+}
+.footer{
+    padding-top:40px;
+    padding-bottom: 40px;
+    color: #aeaeae;
+}
+
